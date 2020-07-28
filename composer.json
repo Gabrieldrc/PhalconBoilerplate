@@ -1,0 +1,10 @@
+{
+    "name": "gabriel/string-projects",
+    "require": {
+        "phalcon/devtools": "^4.0"
+    },
+    "scripts": {
+        "phalcon": "php ./vendor/phalcon/devtools/phalcon",
+        "start": "php -S localhost:8000 -t PhalconProject/public PhalconProject/.htrouter.php"
+    }
+}
