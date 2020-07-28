@@ -5,6 +5,6 @@
     },
     "scripts": {
         "phalcon": "php ./vendor/phalcon/devtools/phalcon",
-        "start": "php -S localhost:8000 -t PhalconProject/public PhalconProject/.htrouter.php"
+        "start": "php -S localhost:8000 -t server/public server/.htrouter.php"
     }
 }
